@@ -19,8 +19,8 @@ void Jogador::setNomeJogador(string nome){
 
 int Jogador::calcularPontuacao(){
 	int total_pontos = 0;
-	for (auto &c : this->_cartas) {
-        total_pontos += c.getTotalPontos();
+	for (int i=0;i<this->_cartas.size();i++) {
+        total_pontos += this->_cartas[i].getTotalPontos();
     }
 	return total_pontos;
 }

@@ -24,6 +24,5 @@ int Carta::getTotalPontos(){
 	if (this->_naipe == "ouros") return this->_numeroPontosPadrao + 2;
 	else if (this->_naipe == "espadas") return this->_numeroPontosPadrao - 3;
 	else if (this->_naipe == "copas") return this->_numeroPontosPadrao + 5;
-	//(naipe == "paus")
-	return this->_numeroPontosPadrao - 1;
+	if (this->_naipe == "paus") return this->_numeroPontosPadrao - 1;
 }

@@ -11,8 +11,8 @@ class Partida {
 	
 private:
 	Jogador *_jogadores;
-	int _num_jogadores = 0;
-	int _atualSize = 0;
+	int _num_jogadores;
+	int _atualSize;
 
 public:
 

@@ -1,6 +1,7 @@
 #include <iostream>
-#include "Partida.hpp"
-#include "Jogador.hpp"
+#include "Partida.cpp"
+#include "Jogador.cpp"
+#include "Carta.cpp"
 
 using namespace std;
 
